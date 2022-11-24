@@ -1,7 +1,7 @@
 import './App.css';
 import ClipboardItem from './ClipboardItem.js';
 import LinkItem from './LinkItem.js';
-import Toaster from "react-hot-toast";
+import {Toaster} from "react-hot-toast";
 
 function App() {
   return (
