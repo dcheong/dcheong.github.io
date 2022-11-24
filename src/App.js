@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import ClipboardItem from './ClipboardItem.js';
+import LinkItem from './LinkItem.js';
+import Toaster from "react-hot-toast";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I'm working on it...
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ClipboardItem label="email" text="douglas.cheong@gmail.com"/>
+        <LinkItem label="LinkedIn" link="https://www.linkedin.com/in/douglascheong/"/>
       </header>
+      <Toaster />
     </div>
   );
 }
